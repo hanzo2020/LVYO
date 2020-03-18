@@ -1,0 +1,191 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#F7F7F7;
+	font:12px 微软雅黑,宋体,Arial,sans-serif;
+	margin-top:0px;
+}
+
+a:link {
+	color:black;
+	text-decoration:none;
+}
+
+a:visited {
+	color:black;
+	text-decoration:none;
+}
+	
+a:hover {
+	color:black;
+	text-decoration:underline;
+	}
+	
+a:active {
+	color:black;
+	text-decoration:none;
+}
+
+.screen{
+	/*width:1024px;margin:0px auto; 设置div水平居中两个属性一个都不能少*/
+	width:1024px;
+	margin:0px auto; 
+}
+/*头部*/
+.header{
+	width:1024px;
+	height:60px;
+	background-color:white;
+}
+.header .logo{
+	color:black;
+	height:50px;
+	width:200px;
+	display:block;
+	font-size:35px;
+	text-align:center;
+	-webkit-font-smoothing: antialiased;
+	float:left;
+}
+.header .logo span{
+	color:#E81A62;
+}
+.header .logo i{
+	margin-right:8px;
+	color:#E81A62;
+}
+.header .split{
+	height:5px;
+	width:1024px;
+	background-color:#424242;
+	margin-top:3px;
+	border-radius: 5px 5px 5px 5px;
+	float:left;
+}
+.header .user_handle{
+	float:right;
+	margin-top:15px;
+	font-size:15px;
+	margin-right:10px;
+}
+.header .user_handle span{
+	cursor:pointer;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+/*左边*/
+.left{
+	float:left;
+	width:200px;
+	height:400px;
+	background-color:white;
+	margin-top:10px;
+	display:black;
+}
+
+.left .title{
+	width:100%;
+	height:35px;
+	line-height:35px;
+	font-size:18px;
+	text-align:left;
+	background-color:black;
+	color:white;
+	font-weight:bold;
+}
+.left .title i{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.left ul{
+	list-style:none;
+	margin-left:-30px;
+}
+.left ul li{
+	line-height:30px;
+	font-size:15px;
+	text-align:left;
+}
+
+.left ul li i{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.left .split{width:200px;height:1px;border-bottom:1px solid #000;}
+
+/*中间 border:1px solid red;*/
+.center{
+	float:right;
+	width:810px;
+	height:500px;
+	background-color:white;	
+	display:black;
+	margin-top:10px;
+}
+
+/*面包屑*/
+.crumbs{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	font-size:15px;
+	padding-top:3px;
+}
+.crumbs i{
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.center .split{width:100%;height:1px;border-bottom:1px solid #000;}
+
+.center .content{
+	width:90%;
+	margin:0px auto; 
+	margin-top:10px;
+}
+
+.mytb{
+	 background-color:#cccccc;
+	 width:500px;
+}
+.mytb td{
+	 background-color:#ffffff;
+}
+
+.center .base{
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.center .base span{
+	font-size:15px;
+	font-weight:normal;
+	margin-bottom:10px;
+	margin-left:20px;
+}
+
+.center .headImg{
+	font-size:18px;
+	font-weight:bold;
+	margin-top:10px;
+}
+
+/*底部*/
+.footer{
+	width:1024px;
+	height:30px;
+	background-color:#424242;
+	float:left;
+	text-align:center;
+	color:white;
+	font-size:13px;
+	line-height:35px;
+	position:absolute;
+	bottom:0px;
+}

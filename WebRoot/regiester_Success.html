@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注册失败</title>
+<script language='javascript' type='text/javascript'>    
+var secs =10; //倒计时的秒数    
+var URL ;    
+function Load(url){    URL =url;    for(var i=secs;i>=0;i--){    window.setTimeout('doUpdate(' + i + ')', (secs-i) * 1000);    }    
+}    
+function doUpdate(num){    //document.getElementById('ShowDiv').innerHTML = '将在'+num+'秒后自动跳转到注册页面' ;  document.getElementById('ShowDiv').innerHTML =num;if(num == 0) { window.location=URL; }    
+}    
+</script> 
+<style type="text/css">
+body {
+	background-image: url(images/002.jpg);
+}
+.ty {
+	font-size: 36px;
+}
+</style>
+</head>
+<body >
+    <div align="center" class="ty">
+      <p><strong>注册成功! 
+        </strong></p>
+      <p><strong><a href="Login.jsp">点击前往登录</strong></p>
+    </div>
+</body>
+</html>
